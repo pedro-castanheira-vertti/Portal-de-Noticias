@@ -27,29 +27,32 @@ body {
     background-color: var(--bg-color);
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-a:hover{
+a:hover {
     color: var(--brand-color-ligth);
 }
 
-h1,h2,h3{
+h1,
+h2,
+h3 {
     font: inherit;
 }
 
-.container{
+img {
+    max-width: 100%;
+
+}
+
+.container {
     max-width: 1280px;
     padding-inline: 32px;
     margin-inline: auto;
 }
 
-.grid{
-    display: grid;
-}
-
-.grid-flow-col{
-    display: grid;
+main {
+    margin-top: 40px;
 }
